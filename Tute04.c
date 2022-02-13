@@ -17,3 +17,38 @@ int main() {
    printf("%d ", multiply(no1, no2));
    return 0;
 }
+
+int maximum(int x , int y);
+int minimum(int p , int q);
+int multiply(int m , int n);
+
+int maximum(int x , int y)
+{
+   if (x <= y)
+   { 
+      return y;
+   }
+   else
+   {
+      return x;
+   } 
+}
+int minimum(int p , int q)
+{
+    if (p <= q)
+   {
+      return p;
+   }
+   else
+   {
+      return q;
+   } 
+}
+
+int multiply(int m , int n)
+{
+   int mult;
+   mult = m * n;
+   
+   return mult;
+}
