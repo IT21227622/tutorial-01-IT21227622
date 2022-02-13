@@ -14,6 +14,15 @@ sum = 1+2+3+...+10 = 55 */
 #include <stdio.h>
 int main() {
   
+  int i, j;
+  
+  printf("Enter the number you want to calculate the triangle value for: ");
+  scanf("%d", &i);
+  
+  j = i * (i + 1) / 2;
+  
+  printf("Sum of numbers 1 to %d is: %d", i, j);
+  
   return 0;
 }
 
